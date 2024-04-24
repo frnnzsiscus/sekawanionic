@@ -1,4 +1,7 @@
 import './ExploreContainer.css';
+import { IonIcon } from '@ionic/react';
+import { logoInstagram } from 'ionicons/icons';
+
 
 interface ContainerProps {
   name: string;
@@ -8,7 +11,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
     <div className="container">
       <strong>{name}</strong>
-      <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <p>Follow my Instagram <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/frnzsiscus/"><IonIcon icon={logoInstagram} /></a></p>
     </div>
   );
 };

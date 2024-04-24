@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">camera-project</string>
+    <string name="title_activity_main">camera-project</string>
+    <string name="package_name">camera.project</string>
+    <string name="custom_url_scheme">camera.project</string>
+</resources>
